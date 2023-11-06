@@ -63,3 +63,14 @@ nav a:first-child {
   border-radius: 4px;
   padding: 5px 10px;
 }
+
+/* Your existing CSS styles here */
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
